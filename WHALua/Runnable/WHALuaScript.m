@@ -10,8 +10,8 @@
 
 #import "WHALuaContext.h"
 
-#import <Lua/lualib.h>
-#import <Lua/lauxlib.h>
+#import "lualib.h"
+#import "lauxlib.h"
 
 @interface WHALuaScript ()
 

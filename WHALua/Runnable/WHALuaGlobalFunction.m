@@ -15,8 +15,8 @@
 #import "WHALuaNumber.h"
 #import "WHALuaString.h"
 
-#import <Lua/lualib.h>
-#import <Lua/lauxlib.h>
+#import "lualib.h"
+#import "lauxlib.h"
 
 @interface WHALuaGlobalFunction ()
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Lua/lua.h>
+#import "lua.h"
 
 @class WHALuaRunnable;
 

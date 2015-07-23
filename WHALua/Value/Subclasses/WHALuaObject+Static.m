@@ -11,8 +11,8 @@
 #import "WHALuaValue.h"
 #import "WHALuaNumber.h"
 
-#import <Lua/lualib.h>
-#import <Lua/lauxlib.h>
+#import "lualib.h"
+#import "lauxlib.h"
 
 // Keeps LUAValue classes for parsing
 static NSArray *valuesArray;
