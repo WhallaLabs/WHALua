@@ -16,5 +16,5 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "WHALua/WHALua/**/*.{h,m}"
+  "source_files": "WHALua/**/*.{h,m}"
 }
