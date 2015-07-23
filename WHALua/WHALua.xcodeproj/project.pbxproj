@@ -62,6 +62,10 @@
 		7629B7591B5FD6B0008C5513 /* WHALuaContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B7451B5FD6B0008C5513 /* WHALuaContext.m */; };
 		7629B75A1B5FD6B0008C5513 /* WHALuaContext+Static.h in Headers */ = {isa = PBXBuildFile; fileRef = 7629B7461B5FD6B0008C5513 /* WHALuaContext+Static.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7629B75B1B5FD6B0008C5513 /* WHALuaContext+Static.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629B7471B5FD6B0008C5513 /* WHALuaContext+Static.m */; };
+		763E7FD11B60E38B008E3BE2 /* lauxlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7629B6D81B5FD4D1008C5513 /* lauxlib.h */; };
+		763E7FE31B60E38B008E3BE2 /* lua.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7629B7051B5FD4D1008C5513 /* lua.h */; };
+		763E7FE41B60E38B008E3BE2 /* lua.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7629B7061B5FD4D1008C5513 /* lua.hpp */; };
+		763E7FE61B60E38B008E3BE2 /* lualib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7629B7081B5FD4D1008C5513 /* lualib.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,10 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				763E7FD11B60E38B008E3BE2 /* lauxlib.h in CopyFiles */,
+				763E7FE31B60E38B008E3BE2 /* lua.h in CopyFiles */,
+				763E7FE41B60E38B008E3BE2 /* lua.hpp in CopyFiles */,
+				763E7FE61B60E38B008E3BE2 /* lualib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +677,7 @@
 				7629B6B31B5FD45B008C5513 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7629B6CC1B5FD47A008C5513 /* Build configuration list for PBXNativeTarget "Lua" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +686,7 @@
 				7629B6CE1B5FD47A008C5513 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
