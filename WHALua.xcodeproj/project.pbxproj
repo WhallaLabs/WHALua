@@ -368,9 +368,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7629B69A1B5FD45B008C5513 /* WHALua */ = {
+		7629B69A1B5FD45B008C5513 /* WHALuaLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7629B6B11B5FD45B008C5513 /* Build configuration list for PBXNativeTarget "WHALua" */;
+			buildConfigurationList = 7629B6B11B5FD45B008C5513 /* Build configuration list for PBXNativeTarget "WHALuaLib" */;
 			buildPhases = (
 				7629B6961B5FD45B008C5513 /* Sources */,
 				7629B6971B5FD45B008C5513 /* Frameworks */,
@@ -382,7 +382,7 @@
 			dependencies = (
 				7629B6D31B5FD485008C5513 /* PBXTargetDependency */,
 			);
-			name = WHALua;
+			name = WHALuaLib;
 			productName = WHALua;
 			productReference = 7629B69B1B5FD45B008C5513 /* WHALua.framework */;
 			productType = "com.apple.product-type.framework";
@@ -433,7 +433,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7629B69A1B5FD45B008C5513 /* WHALua */,
+				7629B69A1B5FD45B008C5513 /* WHALuaLib */,
 				7629B6BA1B5FD47A008C5513 /* Lua */,
 			);
 		};
@@ -670,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7629B6B11B5FD45B008C5513 /* Build configuration list for PBXNativeTarget "WHALua" */ = {
+		7629B6B11B5FD45B008C5513 /* Build configuration list for PBXNativeTarget "WHALuaLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7629B6B21B5FD45B008C5513 /* Debug */,

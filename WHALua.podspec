@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'WHALuaLib' do |ss|
-    ss.source_files = 'Lua/**/*.{h,m,c}'
+    ss.source_files = 'WHALua/**/*.{h,m,c}'
     ss.dependency 'WHALua/Lua'
   end
 
