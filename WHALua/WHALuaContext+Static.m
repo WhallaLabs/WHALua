@@ -10,8 +10,8 @@
 
 #import "WHALuaObject.h"
 
-#import "lualib.h"
-#import "lauxlib.h"
+#import <Lua/lualib.h>
+#import <Lua/lauxlib.h>
 
 // /////////////////////////////////////////////////////////////////////////////
 

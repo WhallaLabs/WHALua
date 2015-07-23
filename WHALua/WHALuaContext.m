@@ -9,8 +9,8 @@
 #import "WHALuaContext.h"
 #import "WHALuaContext+Static.h"
 
-#import "lualib.h"
-#import "lauxlib.h"
+#import <Lua/lualib.h>
+#import <Lua/lauxlib.h>
 
 #import "WHALuaNumber.h"
 #import "WHALuaObject.h"

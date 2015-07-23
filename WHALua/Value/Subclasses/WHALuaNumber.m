@@ -8,9 +8,9 @@
 
 #import "WHALuaNumber.h"
 
-#include "lua.h"
-#include "lauxlib.h"
-#include "lualib.h"
+#include <Lua/lua.h>
+#include <Lua/lauxlib.h>
+#include <Lua/lualib.h>
 
 // /////////////////////////////////////////////////////////////////////////////
 
