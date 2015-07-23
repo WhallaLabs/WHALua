@@ -20,4 +20,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = "WHALua/**/*.{h,m}"
+
+  s.subspec "Lua" do |sp|
+    sp.source_files = "Lua/**/*.{h,m}"
+  end
 end
