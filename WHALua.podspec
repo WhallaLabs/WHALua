@@ -19,6 +19,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = "Lua/**/*.{h,m}", "WHALua/**/*.{h,m}"
+  s.source_files = "WHALua/**/*.{h,m}"
 
+  s.subspec "Lua" do |sp|
+    sp.source_files = "Lua/**/*.{h,m}"
+  end
 end
