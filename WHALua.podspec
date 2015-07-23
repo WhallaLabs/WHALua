@@ -19,5 +19,16 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = "**/*.{h,m}"
+  s.public_header_files = 'WHALua/*.h'
+  s.source_files = 'WHALua/WHALua.h'
+
+  s.subspec 'Lua' do |ss|
+    ss.source_files = 'Lua/**/*.{h,m,c}'
+  end
+
+  s.subspec 'WHALuaLib' do |ss|
+    ss.source_files = 'Lua/**/*.{h,m,c}'
+    ss.dependency 'WHALua/Lua'
+  end
+
 end
