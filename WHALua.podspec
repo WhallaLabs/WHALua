@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://whallalabs.com"
   s.license          = 'Private'
   s.author           = { "Szymon Kuczur" => "szymon.kuczur@whallalabs.com" }
-  s.source           = { :git => "git@github.com:WhallaLabs/WHALua.git", :branch => "development" }#, :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:WhallaLabs/WHALua.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'WHALua/WHALua.h'
 
   s.subspec 'Lua' do |ss|
+    ss.compiler_flags = '-Wno-deprecated-declarations', '-Wno-shorten-64-to-32'
     ss.source_files = 'Lua/**/*.{h,m,c}'
   end
 
