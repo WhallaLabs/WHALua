@@ -8,7 +8,7 @@
     "Szymon Kuczur": "szymon.kuczur@whallalabs.com"
   },
   "source": {
-    "git": "https://github.com/WhallaLabs/WHALua.git",
+    "git": "git@github.com:WhallaLabs/WHALua.git",
     "branch": "development"
     //"tag": "0.1.0"
   },
