@@ -1,5 +1,4 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, "7.0"
-workspace 'WHALua'
+xcodeproj 'WHALua'
 link_with 'Lua'
-use_frameworks!
