@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WHALua"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Objective C to Lua bridge"
   s.homepage         = "http://whallalabs.com"
   s.license          = 'Private'
