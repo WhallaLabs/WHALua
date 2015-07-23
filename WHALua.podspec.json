@@ -1,0 +1,20 @@
+{
+  "name": "WHALua",
+  "version": "0.1.0",
+  "summary": "Objective C to Lua bridge",
+  "homepage": "http://whallalabs.com",
+  "license": "MIT",
+  "authors": {
+    "Szymon Kuczur": "szymon.kuczur@whallalabs.com"
+  },
+  "source": {
+    "git": "https://github.com/WhallaLabs/WHALua.git",
+    "branch": "development"
+    //"tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "WHALua/**/*.{h,m}"
+}
