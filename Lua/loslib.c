@@ -120,7 +120,10 @@
 /* }================================================================== */
 
 
-
+#if defined(__clang__)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#endif
 
 static int os_execute (lua_State *L) {
   const char *cmd = luaL_optstring(L, 1, NULL);
@@ -133,6 +136,9 @@ static int os_execute (lua_State *L) {
   }
 }
 
+#if defined(DUPA)
+#pragma clang pop
+#endif
 
 static int os_remove (lua_State *L) {
   const char *filename = luaL_checkstring(L, 1);

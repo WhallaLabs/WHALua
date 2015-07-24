@@ -96,6 +96,12 @@ static const Node dummynode_ = {
 ** INT_MIN.
 */
 #if !defined(l_hashfloat)
+
+#if defined(__clang__)
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wconditional-uninitialized"
+#endif
+
 static int l_hashfloat (lua_Number n) {
   int i;
   lua_Integer ni;
@@ -109,6 +115,11 @@ static int l_hashfloat (lua_Number n) {
     return cast_int(u <= cast(unsigned int, INT_MAX) ? u : ~u);
   }
 }
+
+#if defined(DUPA)
+#pragma clang pop
+#endif
+
 #endif
 
 

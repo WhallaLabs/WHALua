@@ -95,7 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7629B69B1B5FD45B008C5513 /* WHALua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHALua.framework; path = WHALuaLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629B69B1B5FD45B008C5513 /* WHALua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WHALua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7629B69F1B5FD45B008C5513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7629B6A01B5FD45B008C5513 /* WHALua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHALua.h; sourceTree = "<group>"; };
 		7629B6BB1B5FD47A008C5513 /* libLua.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLua.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -616,6 +616,7 @@
 				INFOPLIST_FILE = WHALua/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -631,6 +632,7 @@
 				INFOPLIST_FILE = WHALua/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
