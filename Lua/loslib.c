@@ -112,27 +112,19 @@
 
 /* ISO C definitions */
 #define LUA_TMPNAMBUFSIZE	L_tmpnam
-#define lua_tmpnam(b,e)		{ e = (mkstemp(b) == -1); }
+#define lua_tmpnam(b,e)		{ e = (tmpnam(b) == NULL); }
 
 #endif				/* } */
 
 #endif				/* } */
 /* }================================================================== */
 
-#include <spawn.h>
-extern char **environ;
+
+
 
 static int os_execute (lua_State *L) {
   const char *cmd = luaL_optstring(L, 1, NULL);
-    
-  pid_t pid;
-  char *argv[] = {
-    (char *)cmd,
-    NULL
-  };
-    
-  int stat = posix_spawn(&pid, argv[0], NULL, NULL, argv, environ);
-  waitpid(pid, NULL, 0);
+  int stat = system(cmd);
   if (cmd != NULL)
     return luaL_execresult(L, stat);
   else {
